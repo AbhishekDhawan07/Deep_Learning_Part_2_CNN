@@ -35,7 +35,7 @@
 
 ## 📌 About the Project
 
-**Deep Learning — Part 3** focuses on **image classification using Neural Networks** applied to the iconic **MNIST dataset** — 70,000 grayscale images of handwritten digits (0–9).
+**Deep Learning — Part 2** focuses on **image classification using Neural Networks** applied to the iconic **MNIST dataset** — 70,000 grayscale images of handwritten digits (0–9).
 
 The notebook covers the complete ML workflow in a single, well-structured file:
 
@@ -286,7 +286,7 @@ A 10×10 seaborn heatmap visualizes model performance across all digit classes, 
 ## 📁 Project Structure
 
 ```
-Deep_Learning_Part_3/
+Deep_Learning_Part_2/
 │
 ├── 📓 MNIST_Handwritten_Digit_Clasification_using_CNN.ipynb   # Main notebook — full pipeline
 ├── 🖼️ MNIST_digit.png                                          # Sample digit image for prediction (digit "3")
