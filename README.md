@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔢 Deep Learning — Part 3: Convolutional Neural Networks (CNN)
+# 🔢 Deep Learning — Part 2: Convolutional Neural Networks (CNN)
 
 ### MNIST Handwritten Digit Classification using CNN
 
