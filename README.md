@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔢 Deep Learning — Part 2: Convolutional Neural Networks (CNN)
+# 🔢 Deep Learning - Part 2: Convolutional Neural Networks (CNN)
 
 ### MNIST Handwritten Digit Classification using CNN
 
@@ -13,7 +13,7 @@
 
 <br/>
 
-> **A complete end-to-end deep learning pipeline for MNIST handwritten digit classification — from data loading and preprocessing, through model training and evaluation, to a real-world predictive system that classifies custom digit images using OpenCV.**
+> **A complete end-to-end deep learning pipeline for MNIST handwritten digit classification - from data loading and preprocessing, through model training and evaluation, to a real-world predictive system that classifies custom digit images using OpenCV.**
 
 </div>
 
@@ -35,7 +35,7 @@
 
 ## 📌 About the Project
 
-**Deep Learning — Part 2** focuses on **image classification using Neural Networks** applied to the iconic **MNIST dataset** — 70,000 grayscale images of handwritten digits (0–9).
+**Deep Learning - Part 2** focuses on **image classification using Neural Networks** applied to the iconic **MNIST dataset** - 70,000 grayscale images of handwritten digits (0–9).
 
 The notebook covers the complete ML workflow in a single, well-structured file:
 
@@ -129,8 +129,8 @@ A 10×10 seaborn heatmap visualizes model performance across all digit classes, 
 <summary><b>⚙️ Preprocessing</b></summary>
 <br/>
 
-- **Pixel normalization** — scale all pixel values from `[0, 255]` to `[0.0, 1.0]` by dividing by 255
-- No manual resizing needed — all MNIST images are uniformly `28×28`
+- **Pixel normalization** - scale all pixel values from `[0, 255]` to `[0.0, 1.0]` by dividing by 255
+- No manual resizing needed - all MNIST images are uniformly `28×28`
 - Labels used as-is with `sparse_categorical_crossentropy` — no one-hot encoding required
 
 </details>
@@ -139,10 +139,10 @@ A 10×10 seaborn heatmap visualizes model performance across all digit classes, 
 <summary><b>🧠 Neural Network Architecture</b></summary>
 <br/>
 
-- **Flatten layer** — converts 28×28 image to 784-dimensional vector
-- **Dense(50, ReLU)** — first hidden layer
-- **Dense(50, ReLU)** — second hidden layer
-- **Dense(10, Sigmoid)** — output layer with 10 neurons (one per digit class)
+- **Flatten layer** - converts 28×28 image to 784-dimensional vector
+- **Dense(50, ReLU)** - first hidden layer
+- **Dense(50, ReLU)** - second hidden layer
+- **Dense(10, Sigmoid)** - output layer with 10 neurons (one per digit class)
 - Compiled with **Adam** optimizer + **Sparse Categorical Cross-Entropy** loss
 
 </details>
@@ -288,7 +288,7 @@ A 10×10 seaborn heatmap visualizes model performance across all digit classes, 
 ```
 Deep_Learning_Part_2/
 │
-├── 📓 MNIST_Handwritten_Digit_Clasification_using_CNN.ipynb   # Main notebook — full pipeline
+├── 📓 MNIST_Handwritten_Digit_Clasification_using_CNN.ipynb   # Main notebook - full pipeline
 ├── 🖼️ MNIST_digit.png                                          # Sample digit image for prediction (digit "3")
 │
 └── 📖 README.md                                                # This file
